@@ -1,0 +1,63 @@
+# Virtual env
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+
+# Ignore large datasets and outputs
+/data/
+data/
+*.csv
+*.parquet
+*.ndjson
+
+# Machine learning models & checkpoints (ignore or use LFS instead)
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Packaging / builds
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# Tests / coverage
+.coverage
+.coverage.*
+.pytest_cache/
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*      # optional: specific env variants
+
+# Binary / compiled
+*.so
+*.dll
+*.dylib
+
+# Misc
+*.swp
